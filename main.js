@@ -1,4 +1,5 @@
 const API_KEY ="931d4f24e8105f59f0ea8ea8226d84da";
+
 const getCurrentWeatherData = async () => {
     const city = "pune";
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
