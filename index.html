@@ -19,7 +19,7 @@
         <h1>Houraly Forecast</h1>
         <section class="hourly-container">
           <article>
-            <h2 class="time">Now</h2>
+            <h3 class="time">Now</h3>
             <img class="icon" src="" alt="" />icon
             <p class="temp">temp</p>
           </article>
@@ -42,26 +42,28 @@
       </article>
       <article id="five-day-forecast">
         <h2>5 day forecast</h2>
-        <article>
-          <h2>Today</h2>
-          <p>icon</p>
-          <p>high</p>
-          <p>low</p>
-        </article>
-        <article>
-          <h2>Tuesday</h2>
-          <p>icon</p>
-          <p>high</p>
-          <p>low</p>
-        </article>
+        <section class="five-day-forecast-container">
+          <article class="day-wise-forecast">
+            <h3>Today</h3>
+            <img class="icon" src="" alt="" />
+            <p class="min-temp">low</p>
+            <p class="max-temp">high</p>
+          </article>
+          <article class="day-wise-forecast">
+            <h3>wed</h3>
+            <img class="icon" src="" alt="" />
+            <p class="min-temp">low</p>
+            <p class="max-temp">high</p>
+          </article>
+        </section>
       </article>
       <article id="feels-like">
         <h2>temperature</h2>
-        <p>temp</p>
+        <p class="feels-like-temp">temp</p>
       </article>
       <article id="feels-humi">
         <h2>humidity</h2>
-        <p>humi</p>
+        <p class="feels-like-humi">humi</p>
       </article>
     </main>
 
